@@ -1,3 +1,19 @@
+/*
+    Given a list of tickets, find itinerary in order using the given list.
+
+Example: 
+
+Input:
+"Chennai" -> "Banglore"
+"Bombay" -> "Delhi"
+"Goa"    -> "Chennai"
+"Delhi"  -> "Goa"
+
+Output: 
+Bombay->Delhi, Delhi->Goa, Goa->Chennai, Chennai->Banglore,
+It may be assumed that the input list of tickets is not cyclic and there is one ticket from every city except the final destination.
+*/
+
 #include<iostream>
 #include<unordered_map>
 #include<vector>
